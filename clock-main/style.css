@@ -1,0 +1,113 @@
+* {box-sizing: border-box;}
+
+img {
+  width:100%;
+}
+
+body {
+  margin:0;
+  background-color:antiquewhite;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.number {
+  font-size: 60px;
+  font-weight:bold;
+  position:absolute;
+}
+.minute {}
+.hour {}
+
+main {
+  width:50%;
+  /* this makes the contents hve an 80px margin on top and bottom, and an auto margin on left and right which centers the content. */
+  margin: 20px auto;
+  position:relative;
+
+}
+.clock {
+  width:100%;
+}
+
+.minute img {
+  width:20px;
+  height:280px;
+  position:absolute;
+  top: 49%;
+  left: 48.5%;
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform:rotate(0deg);
+  transform-origin: top;
+}
+
+@keyframes rotate {
+  0%{ transform:rotate(0deg)}
+  100%{ transform:rotate(360deg)}
+}
+.hour img {
+  width:30%;
+  height:20px;
+  position:absolute;
+  top: 48%;
+  left: 48.7%;
+  animation-name: rotate;
+  animation-duration: 36s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform:rotate(0deg);
+  transform-origin: left;
+
+}
+.one {
+  top: 13%;
+  right: 27%;
+}
+.two {
+  top: 27%;
+  right: 13%;
+}
+.three {
+  top: 45%;
+  right: 5%;
+}
+.four {
+  top: 63%;
+  right: 13%;
+}
+.five {
+  top: 79%;
+  right: 27%;
+}
+.six {
+  bottom: 4%;
+  left: 47%;
+}
+.seven {
+  top: 79%;
+  left: 27%;
+}
+.eight {
+  top: 63%;
+  left :13%;
+}
+.nine {
+  top: 45%;
+  left: 6%;
+}
+.ten {
+  top: 26%;
+  left: 12%;
+
+}
+.eleven {
+  top: 12%;
+  left: 26%;
+}
+.twelve {
+  top: 4%;
+  right:45%;
+}
+.hour {}
+.minute {}
