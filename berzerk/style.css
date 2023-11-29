@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  body.homepage {
+    background-color:lightgray;
+  }
+  .homelogo img {
+    width:4%;
+    position:absolute;
+    left: 48%;
+  }
+  .berzerklogo img {
+    position:absolute;
+    width:7%;
+    left:-0.5%;
+  }
+.bluedenim {
+  position:absolute;
+  top:30%;
+  left:10%;
+}
+.blackdenim {
+  position:absolute;
+  top:30%;
+  left:60%;
+}
+.rawdenim {
+  position:absolute;
+  bottom:-70%;
+  left:10%;
+}
+.hoodie {
+  position:absolute;
+  bottom:-70%;
+  left:60%;
+}

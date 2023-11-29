@@ -5,9 +5,6 @@ body {
     margin:0;
 }
 body.homepage {
-    background-image:url("images/pingpongbg2.png");
-background-repeat: no-repeat;
-background-size: cover;
 background-color:#fee7aa;
 }
 
@@ -16,6 +13,14 @@ background-color:#fee7aa;
     padding-left:20px;
     position:absolute;
     top: 7%;
+}
+.bio p{
+
+    font-size:23px;
+    position:absolute;
+    top:25%;
+    left:70%;
+    font-family: ("images/Gilmer Medium.otf");
 }
 .pingpongwings img {
     width: 60%;
@@ -34,9 +39,8 @@ background-color:#fee7aa;
 
 .pecostar {
     position:absolute;
-    top: 24%;
-    left:60%;
-    width:90%;
+    top: 20%;
+    left:45%;
 }
 
 .pecostar img {
@@ -67,21 +71,4 @@ background-color:#fee7aa;
     position:absolute;
     right:97%;
     white-space:nowrap;
-}
-.blackbox img {
-    position:absolute;
-    width: 50%;
-    top: 35%;
-    right:43%;
-}
-.bio p{
-
-    font-size:23px;
-    position:absolute;
-    top:39%;
-    left:12%;
-    font-family: ("images/Gilmer Medium.otf");
-    color: #fee7aa;
-    inline-size: 600px;
-  overflow-wrap: break-word;
 }
