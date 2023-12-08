@@ -1,0 +1,162 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size:30px;
+    margin:0;
+}
+  body.homepage {
+    background-color:lightgray;
+  }
+  .homelogo img {
+    width:4%;
+    position:absolute;
+    left: 48%;
+  }
+  .berzerklogo img {
+    position:absolute;
+    width:7%;
+    left:-0.5%;
+  }
+  .bluedenim img{
+    position:absolute;
+    width:50%;
+    top:20%;
+    left:8%;
+  }
+
+.price1 {
+position:absolute;
+top:90%;
+left:23%;
+font-weight: bold;
+}
+.price2 {
+  position:absolute;
+  top:63%;
+  left:61%;
+  font-weight: bold;
+  font-size:40px;
+  }
+  .price3 {
+    position:absolute;
+    top:171%;
+    left:23%;
+    font-weight: bold;
+    }
+    .price4 {
+      position:absolute;
+      top:171%;
+      left:73.5%;
+      font-weight: bold;
+      }
+.line1 img{
+position:absolute;
+  top:185%;
+  width:100%;
+}
+.box-1 img{
+  position:absolute;
+    top:200%;
+    width:50%;
+    height:5%;
+    left:24%;
+  }
+  .email {
+    position:absolute;
+      top:200.5%;
+      width:50%;
+      height:5%;
+      left:66.5%;
+      font-weight:bold;
+      color:lightslategray
+    }
+    .newsletter {
+      position:absolute;
+        top:197%;
+        width:50%;
+        height:5%;
+        left:24.1%;
+        font-weight:bold;
+        font-size:20px;
+      }
+      .line2 img{
+        position:absolute;
+          top:217%;
+          width:100%;
+      }
+      .payment {
+        position:absolute;
+          top:225%;
+          width:50%;
+          height:5%;
+          left:45%;
+          font-weight:bold;
+          font-size:20px;
+      }
+      .paymenticons img{
+        position:absolute;
+        top:235%;
+        left:35%;
+        width:30%;
+      }
+      .sizes img{
+        position:absolute;
+        top:75%;
+        width:4%;
+        left:61%;
+      }
+      .sizem img{
+        position:absolute;
+        top:85%;
+        width:4%;
+        left:61%;
+      }
+      .sizel img{
+        position:absolute;
+        top:95%;
+        width:4%;
+        left:61%;
+      }
+      .arrowleft img {
+        position:absolute;
+        top:49%;
+        width:3%;
+        left:3%;
+      }
+      .arrowright img {
+        position:absolute;
+        top:49%;
+        width:3%;
+        left:60%;
+      }
+      .leftarrow {
+        position:absolute;
+        left:-2%;
+      }
+      .rightarrow {
+        position:absolute;
+        left:50%;
+      }
+      .w3-display-container {
+        position:absolute;
+        width:113%;
+        left:4%;
+        top:15%;
+      }
+      .sizechart img {
+        position:absolute;
+        left: 73%;
+        width:17%;
+        top:15%;
+      }
+      .addtocart img {
+        position:absolute;
+        left: 67%;
+        width:30%;
+        top:84%;
+      }
